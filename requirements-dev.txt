@@ -1,0 +1,6 @@
+-r requirements.txt
+pytest>=8.0
+
+# On Python 3.13+ paddlepaddle 2.6.2 cannot be installed; for UI and test work
+# there, install only what they need:
+#   pip install pytest pillow openpyxl numpy
